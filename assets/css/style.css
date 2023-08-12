@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic style*/
+    color: #3a3a3a;
+}
+
 /*Header*/
 header {
     background-color: green;
@@ -13,6 +22,9 @@ header {
 /*Main content*/
 main {
     background-color: goldenrod;
+    display: flex;
+    /*Occupy available space to push footer down*/
+    flex: 1 0 auto;
 }
 
 /*Footer*/
