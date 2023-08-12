@@ -1,0 +1,21 @@
+/*Asterisk wildcard selector used to overide default browser added styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    background-color: green;
+}
+
+/*Main content*/
+main {
+    background-color: goldenrod;
+}
+
+/*Footer*/
+footer {
+    background-color: lightblue;
+}
