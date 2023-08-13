@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 /*Asterisk wildcard selector used to overide default browser added styles*/
 * {
     box-sizing: border-box;
@@ -12,6 +14,7 @@ body {
     flex-direction: column;
     /*Generic style*/
     color: #3a3a3a;
+    font-family: 'Open sans', 'Montserrat', 'sans-serif';
 }
 
 /*Header*/
