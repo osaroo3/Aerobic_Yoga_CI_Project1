@@ -14,12 +14,18 @@ body {
     flex-direction: column;
     /*Generic style*/
     color: #3a3a3a;
-    font-family: 'Open sans', 'Montserrat', 'sans-serif';
+    font-family: 'Open sans', 'sans-serif';
 }
+
+
 
 /*Header*/
 header {
     background-color: green;
+}
+
+h1 {
+    font-family: 'Montserrat', 'sans-serif';
 }
 
 /*Main content*/
