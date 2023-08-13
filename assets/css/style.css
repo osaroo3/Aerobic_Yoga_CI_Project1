@@ -35,8 +35,19 @@ header a {
     color: inherit;
 }
 
-header li {
+#header_menu {
+    font-size: 120%;
     list-style-type: none;
+    letter-spacing: 4px;
+
+}
+
+#header_menu>li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 h1 {
