@@ -95,6 +95,7 @@ main {
     display: flex;
     /*Occupy available space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 36px;
 }
 
 /*Footer*/
