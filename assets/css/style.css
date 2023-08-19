@@ -148,5 +148,16 @@ footer {
         margin-top: 76px;
 
     }
+}
+
+/**/
+@media screen and (min-width:992px) {
+    #header-menu a:hover {
+        /*Show nav item is a link by underlining it when hovered*/
+        border-bottom: 1px solid #3a3a3a;
+
+
+    }
+
 
 }
