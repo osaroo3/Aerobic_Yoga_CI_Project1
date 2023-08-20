@@ -96,8 +96,19 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: lightblue;
+#social-pages {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#social-pages i {
+    font-size: 180%;
+    color: #3a3a3a;
+    padding: 5%;
 }
 
 
