@@ -97,11 +97,12 @@ main {
 
 /* Form */
 #join-us {
-    background-image: url("../images/signup-image.webp");
+    background-image: url("../images/pexels-yan-krukau-8436605.jpg");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+
 }
 
 
@@ -109,6 +110,8 @@ main {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    border-radius: 15px;
+
 }
 
 
@@ -139,11 +142,12 @@ main {
 
 .join-us-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 15px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: green;
     color: #fafafa;
+
 }
 
 /*Footer*/
