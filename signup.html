@@ -36,7 +36,39 @@
         </nav>
     </header>
     <!--Main content-->
-    <main>Join-us content</main>
+    <main>
+        <section id="join-us">
+            <form id="join-us-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>
+                    <i class="fa-solid fa-heartbeat"></i> Let's get you signed up!
+                </h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required />
+                <br />
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required />
+                <br />
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required />
+                <br />
+                <div class="radio-buttons">
+                    <div>
+                        <label for="studio">Studio</label>
+                        <input type="radio" name="execise_preference" id="studio" value="studio" required checked />
+                    </div>
+                    <div>
+                        <label for="online">Online</label>
+                        <input type="radio" name="execise_preference" id="onlinr" value="online" required />
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="execise_preference" id="both" value="both" required />
+                    </div>
+                </div>
+                <button type="submit" class="join-us-button">Let's Exercise!</button>
+            </form>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <ul id="social-pages">
