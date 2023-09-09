@@ -86,6 +86,10 @@ h1 {
 
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /*Main content*/
 main {
     background-color: #ffffff;
@@ -93,6 +97,17 @@ main {
     /*Occupy available space to push footer down*/
     flex: 1 0 auto;
     margin-top: 36px;
+}
+
+/*Gallery page*/
+#photos img {
+    width: 100%;
+    line-height: 1;
+}
+
+#photos {
+    line-height: 0;
+
 }
 
 /* Form */
@@ -215,6 +230,16 @@ main {
         margin-top: 76px;
 
     }
+
+    /*Gallery*/
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+
+
+    }
+
+
 }
 
 /**/
@@ -222,6 +247,12 @@ main {
     #header-menu a:hover {
         /*Show nav item is a link by underlining it when hovered*/
         border-bottom: 1px solid #3a3a3a;
+
+    }
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
 
     }
 
