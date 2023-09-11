@@ -101,19 +101,30 @@ main {
 
 /* main-photo styling*/
 #main-photo {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url("../images/pexels-krukau-8436627.jpg") no-repeat center center/cover;
 }
 
 #main-text {
-    font: 50px;
+
     padding: auto;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: auto;
     margin-top: 2px;
     margin-bottom: 2px;
     display: block;
+}
+
+#benefit-text>h3,
+#why-with-us-text>h3 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#benefit-text ul,
+#why-with-us-text ul {
+    margin-left: 5px;
 }
 
 /*Gallery page*/
@@ -208,8 +219,22 @@ main {
         font-size: 28px;
     }
 
+    #benefit-text li,
+    #why-with-us-text li {
+        list-style-type: none;
+
+    }
 }
 
+/*Media query for landscape screens (653px and more)*/
+@media screen and (min-width:653px) {
+
+    #benefit-text ul,
+    #why-with-us-text ul {
+        padding-left: 50px;
+
+    }
+}
 
 /*Media query for tablets and larger screens (768px and more)*/
 @media screen and (min-width:768px) {
