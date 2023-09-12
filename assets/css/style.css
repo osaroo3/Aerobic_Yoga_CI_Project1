@@ -108,12 +108,15 @@ main {
 
 #main-text {
 
-    padding: auto;
-    margin-left: 5px;
-    margin-right: auto;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    padding: 5px;
+    margin: 5px;
     display: block;
+    text-align: justify;
+}
+
+#benefit-text,
+#why-with-us-text {
+    padding-top: 5px;
 }
 
 #benefit-text>h3,
@@ -125,6 +128,7 @@ main {
 #benefit-text ul,
 #why-with-us-text ul {
     margin-left: 5px;
+    padding: 5px 5px 5px 20px;
 }
 
 /*Gallery page*/
@@ -141,6 +145,7 @@ main {
 /* Form */
 #join-us {
     background-image: url("../images/pexels-andrea-piacquadio-3775593.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -218,20 +223,40 @@ main {
     #logo {
         font-size: 28px;
     }
-
-    #benefit-text li,
-    #why-with-us-text li {
-        list-style-type: none;
-
-    }
 }
 
 /*Media query for landscape screens (653px and more)*/
 @media screen and (min-width:653px) {
 
+    /*Main*/
     #benefit-text ul,
     #why-with-us-text ul {
-        padding-left: 50px;
+        padding-left: 25px;
+
+    }
+
+    #benefit-text>h3,
+    #why-with-us-text>h3 {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    #onboard-text {
+        display: flex;
+        gap: 5px;
+        width: 100%;
+
+
+    }
+
+    #benefit-text {
+        order: -1;
+
+
+    }
+
+    #why-with-us-text {
+        order: 3;
 
     }
 }
@@ -284,14 +309,32 @@ main {
 
 }
 
-/**/
+/*Large devices (laptops and desktops:992px and more)*/
 @media screen and (min-width:992px) {
+
+    /*Main*/
     #header-menu a:hover {
         /*Show nav item is a link by underlining it when hovered*/
         border-bottom: 1px solid #3a3a3a;
 
     }
 
+    #benefit-text {
+
+        padding-left: 150px;
+    }
+
+    #why-with-us-text {
+
+        padding-left: 250px;
+    }
+
+    #onboard-text {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    /*Gallery*/
     #photos {
         column-count: 3;
         column-gap: 0;
@@ -300,3 +343,6 @@ main {
 
 
 }
+
+/*Large devices (laptops and desktops:1200px and up)*/
+@media screen and (min-width:1200px) {}
