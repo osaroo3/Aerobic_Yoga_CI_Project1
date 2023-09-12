@@ -101,7 +101,7 @@ main {
 
 /* main-photo styling*/
 #main-photo {
-    height: 400px;
+    height: 600px;
     width: 100%;
     background: url("../images/pexels-krukau-8436627.jpg") no-repeat center center/cover;
 }
@@ -349,4 +349,11 @@ main {
 }
 
 /*Large devices (laptops and desktops:1200px and up)*/
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+    main {
+        display: flex;
+        justify-content: end;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
