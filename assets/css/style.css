@@ -154,6 +154,10 @@ main {
 }
 
 
+.join-us-button:hover {
+    color: black;
+}
+
 #join-us-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
