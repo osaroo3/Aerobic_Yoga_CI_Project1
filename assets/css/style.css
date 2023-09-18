@@ -341,76 +341,80 @@ main {
 
     }
 
-
-}
-
-/*Large devices (laptops and desktops:992px and more)*/
-@media screen and (min-width:992px) {
-
-    /*Main*/
-    #header-menu a:hover {
-        /*Show nav item is a link by underlining it when hovered*/
-        border-bottom: 1px solid #3a3a3a;
-
-    }
-
-    #benefit-text {
-
-        padding-left: 100px;
-    }
-
-    #why-with-us-text {
-
-        padding-left: 90px;
-    }
-
-    #onboard-text {
-        margin-left: 5px;
-        margin-right: 5px;
-
-    }
-
-    /*Gallery*/
-    #photos {
-        column-count: 3;
-        column-gap: 0;
-
-    }
-
-
-}
-
-/*Large devices (laptops and desktops:1200px and up)*/
-@media screen and (min-width:1200px) {
-    body::-webkit-scrollbar {
+    #hide-img {
         display: none;
     }
 
-    main {
-        display: flex;
-        flex: 1 0 auto;
-        width: 100%;
-        overflow: hidden;
+    /*Large devices (laptops and desktops:992px and more)*/
+    @media screen and (min-width:992px) {
+
+        /*Main*/
+        #header-menu a:hover {
+            /*Show nav item is a link by underlining it when hovered*/
+            border-bottom: 1px solid #3a3a3a;
+
+        }
+
+        #benefit-text {
+
+            padding-left: 100px;
+        }
+
+        #why-with-us-text {
+
+            padding-left: 90px;
+        }
+
+        #onboard-text {
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+
+        /*Gallery*/
+        #photos {
+            column-count: 3;
+            column-gap: 0;
+
+        }
+
+        #hide-img {
+            display: block;
+        }
 
     }
 
-    #main-photo {
+    /*Large devices (laptops and desktops:1200px and up)*/
+    @media screen and (min-width:1200px) {
+        body::-webkit-scrollbar {
+            display: none;
+        }
 
-        width: 1366px;
+        main {
+            display: flex;
+            flex: 1 0 auto;
+            width: 100%;
+            overflow: hidden;
+
+        }
+
+        #main-photo {
+
+            width: 1366px;
+        }
+
+
+        #horizontal-line {
+            display: none;
+        }
+
+        #benefit-text {
+
+            padding-left: 150px;
+        }
+
+        #why-with-us-text {
+
+            padding-left: 200px;
+        }
     }
-
-
-    #horizontal-line {
-        display: none;
-    }
-
-    #benefit-text {
-
-        padding-left: 150px;
-    }
-
-    #why-with-us-text {
-
-        padding-left: 200px;
-    }
-}
