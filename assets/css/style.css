@@ -246,6 +246,9 @@ main {
     /*h1 resize to keep it on a single row for phone screens*/
     #logo {
         font-size: 28px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
     }
 }
 
@@ -378,10 +381,21 @@ main {
 
     /*Large devices (laptops and desktops:1200px and up)*/
     @media screen and (min-width:1200px) {
+
         main {
             display: flex;
             flex: 1 0 auto;
             width: 100%;
+        }
+
+        #main-text,
+        #main-photo {
+
+            width: 100%;
+        }
+
+        #horizontal-line {
+            display: none;
         }
 
         #benefit-text {
