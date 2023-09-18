@@ -131,6 +131,24 @@ main {
     padding: 5px 5px 5px 20px;
 }
 
+.center {
+
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#find-us {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
 /*Gallery page*/
 #photos img {
     width: 100%;
@@ -203,6 +221,8 @@ main {
 
 }
 
+
+
 /*Footer*/
 #social-pages {
     list-style-type: none;
@@ -263,6 +283,10 @@ main {
         order: 3;
 
     }
+
+    #find-us {
+        text-align: center;
+    }
 }
 
 /*Media query for tablets and larger screens (768px and more)*/
@@ -302,6 +326,10 @@ main {
 
     }
 
+    #onboard-text {
+        padding-left: 30px;
+    }
+
     /*Gallery*/
     #photos {
         column-count: 2;
@@ -325,35 +353,44 @@ main {
 
     #benefit-text {
 
-        padding-left: 150px;
+        padding-left: 100px;
     }
 
     #why-with-us-text {
 
-        padding-left: 250px;
+        padding-left: 90px;
     }
 
     #onboard-text {
-        margin-left: 10px;
+        margin-left: 5px;
         margin-right: 5px;
+
+
+        /*Gallery*/
+        #photos {
+            column-count: 3;
+            column-gap: 0;
+
+        }
+
+
     }
 
-    /*Gallery*/
-    #photos {
-        column-count: 3;
-        column-gap: 0;
+    /*Large devices (laptops and desktops:1200px and up)*/
+    @media screen and (min-width:1200px) {
+        main {
+            display: flex;
+            flex: 1 0 auto;
+            width: 100%;
+        }
 
+        #benefit-text {
+
+            padding-left: 150px;
+        }
+
+        #why-with-us-text {
+
+            padding-left: 200px;
+        }
     }
-
-
-}
-
-/*Large devices (laptops and desktops:1200px and up)*/
-@media screen and (min-width:1200px) {
-    main {
-        display: flex;
-        justify-content: end;
-        margin-left: 0;
-        padding-left: 0;
-    }
-}
