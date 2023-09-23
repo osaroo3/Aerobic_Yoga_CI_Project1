@@ -18,10 +18,7 @@ The idea behind this project, is to introduce aerobics to yoga exercise, to make
       - [Benefits?](#benefits)
       - [Why with us?](#why-with-us)
       - [Our location?](#our-location)
-      - [Where to find us?](#where-to-find-us)
     - [Footer](#footer)
-    - [Buddhism and Meditation](#buddhism-and-meditation)
-    - [Get in Touch](#get-in-touch)
   - [Future Features](#future-features)
 - [Testing](#testing)
   - [Validator Testing](#validator-testing)
@@ -63,6 +60,8 @@ A main photo is used in the index page as the hero image. This is done to draw t
 
 This page engages with our site users, by providing information about what we do, its benefits, why they should sign up, our location and, also our social handles.
 
+![Home page image?](assets/readme-images/Home-page.PNG)
+
 #### Benefits?
 
 This section provides our site users with some major benefits of aerobic yoga to them, so as to get them to sign up..
@@ -71,60 +70,27 @@ This section provides our site users with some major benefits of aerobic yoga to
 
 #### Why with us?
 
-This section has been included.
+This section has been included to gain our users trust, to enable them not only to sign up for aerobic yoga exercises, but also, for them to choose us.
 
-![Why with us?](assets/readme-images/what-we-do-section.jpg)
+![Why with us?](assets/readme-images/why-with-us.PNG)
 
 #### Our location?
 
-This section details the times that the group meets.
+This section details where we meet as a group.
 
-![When we meet?](assets/readme-images/when-we-meet-section.jpg)
-
-#### Where to find us?
-
-This sections details where the group meets. A postal address has been detailed, with a Google Maps tile for a visual for the location.
-
-![Where to find us?](assets/readme-images/where-to-find-us-section.jpg)
+![When we meet?](assets/readme-images/our-location.PNG)
 
 ### Footer
 
-The footer section features a note that this site is for educational purposes only and links to four social media sites.
+The footer section directs our site users to our social handles to keep up with updates regarding our activities.
 
-The note regarding this site being for educational purposes only has been included as I do not have the rights to some of the content and media used on the website. The content and media has been credited in this document.
+![Footer](assets/readme-images/footer.PNG)
 
-![Footer](assets/readme-images/footer.jpg)
-
-### Buddhism and Meditation
-
-Although the home page provides details of the group, I thought it was important to detail some information about Buddhism which is studied. Screenshots of these sections have been provided below:
-
-![What is Buddhism?](assets/readme-images/what-is-buddhism.jpg)
-
-![Who was the Buddha?](assets/readme-images/who-was-the-buddha.jpg)
-
-![What is Meditation?](assets/readme-images/what-is-meditation.jpg)
-
-I also want to include some information on the meditations which take place during the group sessions. Instead of image tiles for these sections, I thought it would be better to include videos of the Meditations for users to use for practice. These videos have not been set to autoplay and controls have been provided for good user experience. Screenshots of these sections have been provided below:
-
-![What is Metta Bhavana Meditation?](assets/readme-images/what-is-metta-bhavana.jpg)
-
-![What is the Mindfulness of Breathing Meditation?](assets/readme-images/what-is-mindfulness-of-breathing.jpg)
-
-### Get in Touch 
-
-This page allows the user an opportunity to get in contact with the group and find out more information.
-
-![Contact form](assets/readme-images/get-in-touch.jpg)
-
-A 'Thank You' page has been created to provide the users with feedback that there information has been submitted. This also sets out a timescale on when someone will get beck in contact with them.
-
-![Thank you](assets/readme-images/thank-you.jpg)
 
 ## Future Features
 
-- Provide more information on Buddhism and Meditation
-- Gallery of Images from Group Events
+- Add videos of our activities.
+- Add testimonies of people, who sign up with us, on our website.
 
 # Testing
 
