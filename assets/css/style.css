@@ -104,6 +104,20 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-krukau-8436627.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+/*Meet up times with some added transparency*/
+#cover-text h3 {
+    text-transform: uppercase;
+    background-color: rgba(60, 60, 60, 0.6);
+    font-size: 130%;
+    position: absolute;
+    top: 300px;
+    color: rgb(0, 0, 0);
+    min-height: 90px;
+    width: 80%;
+    padding-left: 10px;
 }
 
 #main-text {
@@ -256,6 +270,10 @@ main {
 @media screen and (min-width:653px) {
 
     /*Main*/
+    #cover-text h3 {
+        font-size: 40px;
+    }
+
     #benefit-text ul,
     #why-with-us-text ul {
         padding-left: 25px;
@@ -333,6 +351,15 @@ main {
         padding-left: 30px;
     }
 
+    #cover-text h3 {
+        bottom: 30px;
+        right: 10px;
+        font-size: 55px;
+        min-height: 60px;
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+
     /*Gallery*/
     #photos {
         column-count: 2;
@@ -356,6 +383,15 @@ main {
 
     }
 
+    #cover-text h3 {
+        bottom: 50px;
+        right: 20px;
+        font-size: 65px;
+        padding-left: 10px;
+
+
+    }
+
     #benefit-text {
 
         padding-left: 100px;
@@ -363,7 +399,7 @@ main {
 
     #why-with-us-text {
 
-        padding-left: 90px;
+        padding-left: 120px;
     }
 
     #onboard-text {
@@ -385,6 +421,15 @@ main {
 
 }
 
+/*Large devices (1024px and up)*/
+@media screen and (min-width:1024px) {
+    #cover-text h3 {
+        font-size: 63px;
+        width: 80%;
+        padding-top: 25px;
+    }
+}
+
 /*Large devices (laptops and desktops:1200px and up)*/
 @media screen and (min-width:1200px) {
     body::-webkit-scrollbar {
@@ -404,6 +449,12 @@ main {
         width: 1366px;
     }
 
+    #cover-text h3 {
+        font-size: 63px;
+        width: 67%;
+        padding-left: 35px;
+        padding-top: 30px;
+    }
 
     #horizontal-line {
         display: none;
