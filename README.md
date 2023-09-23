@@ -15,9 +15,9 @@ The idea behind this project, is to introduce aerobics to yoga exercise, to make
     - [Navigation](#navigation)
     - [Home Page main photo](#home-page-main-photo)
     - [Home Page](#home-page)
-      - [Who we are?](#who-we-are)
-      - [What we do?](#what-we-do)
-      - [When we meet?](#when-we-meet)
+      - [Benefits?](#benefits)
+      - [Why with us?](#why-with-us)
+      - [Our location?](#our-location)
       - [Where to find us?](#where-to-find-us)
     - [Footer](#footer)
     - [Buddhism and Meditation](#buddhism-and-meditation)
@@ -55,27 +55,27 @@ There are three navigation links in this project, and they are located at the to
 
 ### Home Page main photo
 
-A main photo is used in the index page as the hero image in the index page. this is done to draw the attention of the site users to what happens in our studio. The goal is to gain their approval of what we do and for them to sign up. 
+A main photo is used in the index page as the hero image. This is done to draw the attention of the site users to what happens in our studio. The goal is to gain their approval of what we do, and, for them to sign up.
 
 ![main photo](assets/images/pexels-krukau-8436627.jpg)
 
 ### Home Page
 
-This page provides all the information a user will need about the group. Each of the questions a user may have about the group have been broken into sections to make it easy to read. This section has been kept simple and to the point.
+This page engages with our site users, by providing information about what we do, its benefits, why they should sign up, our location and, also our social handles.
 
-#### Who we are?
+#### Benefits?
 
-This section has been placed first to provide some context about the page and what the group is about.
+This section provides our site users with some major benefits of aerobic yoga to them, so as to get them to sign up..
 
-![Who we are?](assets/readme-images/who-we-are-section.jpg)
+![Benefits?](assets/readme-images/benefits.PNG)
 
-#### What we do?
+#### Why with us?
 
-This section has been added to provide the user with information on what we do during group sessions. Headers have been used to simply state what takes place with a small explanation underneath.
+This section has been included.
 
-![What we do?](assets/readme-images/what-we-do-section.jpg)
+![Why with us?](assets/readme-images/what-we-do-section.jpg)
 
-#### When we meet?
+#### Our location?
 
 This section details the times that the group meets.
 
