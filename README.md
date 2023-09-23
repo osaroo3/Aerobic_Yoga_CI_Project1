@@ -13,7 +13,7 @@ The idea behind this project, is to introduce aerobics to yoga exercise, to make
   - [Existing Features:](#existing-features)
     - [Languages Used](#languages-used)
     - [Navigation](#navigation)
-    - [Home Page Hero Image](#home-page-hero-image)
+    - [Home Page main photo](#home-page-main-photo)
     - [Home Page](#home-page)
       - [Who we are?](#who-we-are)
       - [What we do?](#what-we-do)
@@ -53,11 +53,11 @@ There are three navigation links in this project, and they are located at the to
 
 ![Logo and Navigation Bar](assets/readme-images/header-image.PNG)
 
-### Home Page Hero Image
+### Home Page main photo
 
-A Hero Image is used on the Home Page (only) under the Header. The text over the Hero Image, 'Buddha - Dharma - Sangha', has been added to break up the image and has been included to improve the design. 'Buddha - Dharma - Sangha' are the Three Jewels of Buddhism and are an important part of the teachings.
+A main photo is used in the index page as the hero image in the index page. this is done to draw the attention of the site users to what happens in our studio. The goal is to gain their approval of what we do and for them to sign up. 
 
-![Hero Image](assets/readme-images/hero-image.jpg)
+![main photo](assets/images/pexels-krukau-8436627.jpg)
 
 ### Home Page
 
