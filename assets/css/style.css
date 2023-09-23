@@ -96,7 +96,7 @@ main {
     display: flex;
     /*Occupy available space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 36px;
+    margin-top: 41px;
 }
 
 /* main-photo styling*/
@@ -111,19 +111,18 @@ main {
 #cover-text h3 {
     text-transform: uppercase;
     background-color: rgba(60, 60, 60, 0.6);
-    font-size: 130%;
+    font-size: 150%;
     position: absolute;
     top: 300px;
     color: rgb(0, 0, 0);
-    min-height: 90px;
+    min-height: 120px;
     width: 80%;
     padding-left: 10px;
 }
 
 #main-text {
-
+    margin-top: 1px;
     padding: 5px;
-    margin: 5px;
     display: block;
     text-align: justify;
 }
@@ -153,7 +152,7 @@ main {
 }
 
 #find-us {
-    padding-left: 10px;
+    padding-left: 5px;
     margin-bottom: 10px;
 }
 
@@ -308,6 +307,10 @@ main {
     #find-us {
         text-align: center;
     }
+
+    #join-us-form {
+        margin-bottom: 15px;
+    }
 }
 
 /*Media query for tablets and larger screens (768px and more)*/
@@ -360,6 +363,11 @@ main {
         padding-top: 15px;
     }
 
+    #why-with-us-text {
+
+        padding-left: 90px;
+    }
+
     /*Gallery*/
     #photos {
         column-count: 2;
@@ -370,6 +378,11 @@ main {
 
     #hide-img {
         display: none;
+    }
+
+    /*sign up*/
+    #join-us-form {
+        margin-top: 150px;
     }
 }
 
@@ -468,6 +481,10 @@ main {
     #why-with-us-text {
 
         padding-left: 250px;
+    }
+
+    #join-us-form {
+        margin-bottom: 170px;
     }
 }
 
