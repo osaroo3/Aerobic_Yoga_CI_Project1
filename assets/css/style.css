@@ -386,6 +386,18 @@ main {
     }
 }
 
+/*Media query for tablets and larger screens (820px and more)*/
+@media screen and (min-width:820px) {
+    #cover-text h3 {
+        bottom: 30px;
+        right: 10px;
+        font-size: 68px;
+        min-height: 60px;
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+}
+
 /*Large devices (laptops and desktops:992px and more)*/
 @media screen and (min-width:992px) {
 
@@ -480,7 +492,7 @@ main {
 
     #why-with-us-text {
 
-        padding-left: 250px;
+        padding-left: 300px;
     }
 
     #join-us-form {

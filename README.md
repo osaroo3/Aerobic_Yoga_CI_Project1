@@ -2,7 +2,9 @@
 
 The idea behind this project, is to introduce aerobics to yoga exercise, to make it even more fun to partake in. This is done by combining some aerobic exercises, and, also changing certain yoga exercises into steps of dance moves with music often playing in the background. This option is for people who want to have fun while exercising.
 
-![Am I Responsive Image](assets/readme-images/Am-I-Responsive.PNG)
+![Am I Responsive Index Image](assets/readme-images/am-i-responsive-index.PNG)
+![Am I Responsive Gallery Image](assets/readme-images/am-i-responsive-gallery.PNG)
+![Am I Responsive Sign Up Image](assets/readme-images/am-i-responsive-sign-up.PNG)
 
 # Table of content
 
