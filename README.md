@@ -107,23 +107,18 @@ The footer section directs our site users to our social handles to keep up with 
 
 # Testing
 
-Testing of the website has been complete by myself and a few friends and family on various devices (Laptop, Tablet and Mobile). It is noted that all of the links, videos, and the contact form (including the input fields requiring information before submitting) functioned as expected.
+Testing of the website was done by me. I open the link on different browsers (Chrome and MS Edge) to be certain they where rendered as I expected. Certain html contents where out of position. This was corrected using appropriate CSS styling.
 
-To ensure that the website worked on a different browser that what was used for the development (Google Chrome), testing also took place on Microsoft Edge.
+I have checked to confirm that forms cannot be submitted without valid entries.
 
-When I added a feature for the navigation bar to remain static whilst the user scrolled down the page, this intially created an issue with the top of the hero image hidden behind the navigation bar. This was fixed by putting the content of the 'header' into a 'div' and then styling the height of this to the same as the header section.
-
-A significant amount of time was spent on Google Chrome Dev Tools both for the intial development, media queries styling and testing at various screen sizes. I found that I spent a lot of time with styling and testing of the 'Buddhism and Meditation' Section to ensure that the page worked well on smaller screens.
-
-After completing the first draft of the site, I run the code through the W3C HTML and CSS validators, and the Lighthouse Accessibility Audit. There were only minor changes required for the W3C HTML and CSS validators, but there were some performance improvement which were made as a result of the suggestions from the Lighthouse Accessibility Audit, including:
-
-- I intially use 'iframes' for my YouTube Videos. I found that by downloading the mp4 files and changing the element to a 'video' tag, this improved the performance of the site.
-- A minor improvement in the performance score was made from defining the fixed image height in the 'What we do?' section rather than having it as 100%.
+I have ensured that this project is responsive on all screens.
 
 ## Validator Testing
 
-- HTML: No errors were returned when passing through the official W3C validator:
+- HTML: No errors or warnings shown when passed via the official W3C validator:
 
+![W3C HTML Validator](assets/readme-images/html-checker.jpg)
+![W3C HTML Validator](assets/readme-images/html-checker.jpg)
 ![W3C HTML Validator](assets/readme-images/html-checker.jpg)
 
 - CSS: No errors were found when passing through the official (Jigsaw) validator:
