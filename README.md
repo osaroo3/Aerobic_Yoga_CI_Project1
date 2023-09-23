@@ -10,7 +10,7 @@ The idea behind this project, is to introduce aerobics to yoga exercise, to make
 - [Table of content](#table-of-content)
 - [Design](#design)
 - [Features](#features)
-  - [Existing Features:](#existing-features)
+  - [Existing Features](#existing-features)
     - [Languages Used](#languages-used)
     - [Navigation](#navigation)
     - [Home Page main photo](#home-page-main-photo)
@@ -33,13 +33,11 @@ The idea behind this project, is to introduce aerobics to yoga exercise, to make
 
 # Design
 
-**Text, Background-color Font and Font-family**
-
 The choice of color, background-color, font and font-family where chosen for simplicity and, also for how visually appealing they can be to site users.
 
 # Features
 
-## Existing Features:
+## Existing Features
 
 ### Languages Used
 
@@ -100,7 +98,6 @@ The footer section directs our site users to our social handles to keep up with 
 
 ![Footer](assets/readme-images/footer.PNG)
 
-
 ## Future Features
 
 - Add videos of our activities.
@@ -118,8 +115,8 @@ A significant amount of time was spent on Google Chrome Dev Tools both for the i
 
 After completing the first draft of the site, I run the code through the W3C HTML and CSS validators, and the Lighthouse Accessibility Audit. There were only minor changes required for the W3C HTML and CSS validators, but there were some performance improvement which were made as a result of the suggestions from the Lighthouse Accessibility Audit, including:
 
-  - I intially use 'iframes' for my YouTube Videos. I found that by downloading the mp4 files and changing the element to a 'video' tag, this improved the performance of the site.
-  - A minor improvement in the performance score was made from defining the fixed image height in the 'What we do?' section rather than having it as 100%.
+- I intially use 'iframes' for my YouTube Videos. I found that by downloading the mp4 files and changing the element to a 'video' tag, this improved the performance of the site.
+- A minor improvement in the performance score was made from defining the fixed image height in the 'What we do?' section rather than having it as 100%.
 
 ## Validator Testing
 
@@ -158,14 +155,14 @@ It is also noted that the 'Performance' measure from the Lighthouse Accessibilit
 
 # Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows: 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-  1. In the GitHub repository, navigate to the Settings tab. 
+  1. In the GitHub repository, navigate to the Settings tab.
   2. From the settings tab, select the 'Pages' tab in the 'Code and Automation' section.
   3. From the source section drop-down menu, select the 'Main' branch.
-  4. Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  4. Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link for the site can be found here - https://tuckerfaulk.github.io/sub30s-buddhist-group-project/
+The live link for the site can be found here - <https://tuckerfaulk.github.io/sub30s-buddhist-group-project/>
 
 # Credits
 
@@ -199,10 +196,9 @@ All images were sources from pexels.com:
 - Stack of Stones - Photo Contributor: [mali maeder](https://www.pexels.com/photo/stack-of-stones-1278952/)
 - Woman Meditating in Bedroom - Photo Contributor: [Andrea Piacquadio](https://www.pexels.com/photo/woman-meditating-in-bedroom-3772612/)
 - Buddha Statue - Photo Contributor: [David Bartus](https://www.pexels.com/photo/buddha-statue-2873473/)
-- Tibetan Singing Bowls - Photo Contributor: [Magicbowls] (https://www.pexels.com/photo/tibetan-singing-bowls-3543912/)
+- Tibetan Singing Bowls - Photo Contributor: [Magicbowls] (<https://www.pexels.com/photo/tibetan-singing-bowls-3543912/>)
 
 Youtube Videos:
 
 - [Metta Bahavana Meditation Video](https://www.youtube.com/watch?v=grJ2wh7nk-E)
 - [Mindfulness of Breathing Meditation Video](https://www.youtube.com/watch?v=32elVeLKFAI)
-
