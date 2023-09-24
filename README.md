@@ -117,85 +117,63 @@ I have ensured that this project is responsive on all screens.
 
 - HTML: No errors or warnings shown when passed via the official W3C validator:
 
-![W3C HTML Validator](assets/readme-images/html-checker.jpg)
-![W3C HTML Validator](assets/readme-images/html-checker.jpg)
-![W3C HTML Validator](assets/readme-images/html-checker.jpg)
+![W3C HTML Validator Check](assets/readme-images/W3C-HTML-validation-checker.PNG)
 
-- CSS: No errors were found when passing through the official (Jigsaw) validator:
 
-![W3C CSS Validator](assets/readme-images/css-checker.jpg)
+- CSS: No errors or warnings shown when passed via the official (Jigsaw) validator:
 
-- Lighthouse (Accessibility Audit): The page achieved a great accessibility performance:
+![W3C CSS Validator Check](assets/readme-images/W3C-CSS-validation-checker.PNG)
+
+-
 
 ![Lighthouse Accessibility Audit](assets/readme-images/lighthouse-checker.jpg)
 
-NB: Although the above screenshots only shows the results of the home page, no errors were found on the other pages of the site and they also achieved great accessibility performance.
+
 
 ## Unfixed Bugs
 
-I have found that the spacing below some of the text sections of the 'Buddhism & Meditation' page are quite large. I think that due to the way that I have designed the page by using similar classes for the text tiles to reduce on CSS coding, I had not anticipated that where there are larger blocks of text, that these sections needed to be larger for smaller screens.
 
-I do not think that this takes too much away from the design of the website, and I am happy with how it is, but I do plan to spend some more time on website design in the the future, so I can better plan before a project to avoid this.
 
-It is also noted that the 'Performance' measure from the Lighthouse Accessibility Audit was relatively low (63/100). This is something which I am going to look into so I can improve on it for the future.
+
+
 
 ## Libraries and Programs Used
 
-- Github: Store Repository
-- Gitpod: Create the html and css files
-- Google Fonts: Font-family 'Raleway' and 'Ubuntu'
-- Google Chrome Dev Tools: To aid the initial styling for media queries and testing at various screen sizes
-- Microsoft Edge: Site testing on an alternative browser
-- Microsoft OneNote: Planning of the project
+- Github: To Store Repository
+  Codeanywhere: To Create the html and css files
+- Google Fonts: Font-family 'Montserrat' and 'Open Sans'
+- Google Chrome Dev Tools: For testing.
+- Microsoft Edge: Alternative browser for site testing
 - Font Awesome: Social media icons
-- Am I Responsive: Screenshots of the final project for the README file
+- Am I Responsive: Getting image of how the webpage renders on different screen sizes.
 
 # Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to GitHub pages. The steps or deploy are shwon below:
 
-  1. In the GitHub repository, navigate to the Settings tab.
-  2. From the settings tab, select the 'Pages' tab in the 'Code and Automation' section.
-  3. From the source section drop-down menu, select the 'Main' branch.
-  4. Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  1. Go to GitHub repository, click on the project.
+  2. Click 'settings' and also click 'Pages'.
+  3. Select 'Main' from drop-down menu under branch, and click save.
+  4. A link to the live page will appear .
 
-The live link for the site can be found here - <https://tuckerfaulk.github.io/sub30s-buddhist-group-project/>
+The live link for this site can be found here -[link](https://osaroo3.github.io/Aerobic_Yoga_CI_Project1/index.html)
 
 # Credits
 
-I have really enjoyed the Code Institute course up till now, and I am looking forward to the next units of the course. I wanted to thank the Slack Community for their support learning the content and my Mentor Martina for her guidance with this project and assurances that creating a website is not as scary as I initially thought.
+The journey to becoming a Fullstack software developer has been great so far, and, also challenging. I wish to thank my mentor Martina Terlevic for all the support so far, and to Code Institute slack community, I say a big thanks.
 
-As a starting point I looked at the Coders Coffee and Love Running projects.
-
-- From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
-- From the Coders Coffee Project, I took inspiration from in my 'What we do?' section.
+    1. The framework of this page follows that of Code Institutes Love Running walkthrough project.
+    2. I acknowledge Tulkerfaulk for the readme file structure.
+    3. The coders coffee project came in handy too.
 
 ## Content
 
-Links have been provided for where the text from the following sections have been taken from:
-
-1. What is Buddhism? [Link](https://thebuddhistcentre.com/buddhism)
-
-2. Who was the Buddha? [Link](https://thebuddhistcentre.com/text/who-was-buddha)
-
-3. What is Meditation? [Link](https://thebuddhistcentre.com/text/meditation)
+The text content of the index page was sourced from : [Link](https://www.webmd.com/fitness-exercise/what-are-aerobic-exercises#:~:text=Aerobic%20exercise%20is%20cardiovascular%20exercise,that%20gets%20to%20your%20muscles.)
 
 ## Media
 
 Images:
 
-All images were sources from pexels.com:
+All images were sourced from : [pexels](https://www.pexels.com/)
 
-- Pink Lotus Flower - Photo Contributor: [Pixabay](https://www.pexels.com/photo/aquatic-bloom-blooming-blossom-158465/)
-- Rock Formation - Photo Contributor: [nicollazzi xiong](https://www.pexels.com/photo/four-rock-formation-668353/)
-- Woman Meditating - Photo Contributor: [Oluremi Adebayo](https://www.pexels.com/photo/woman-meditating-in-the-outdoors-2908175/)
-- Monks Meditating - Photo Contributor: [Pixabay](https://www.pexels.com/photo/people-festival-sitting-freedom-50709/)
-- Stack of Stones - Photo Contributor: [mali maeder](https://www.pexels.com/photo/stack-of-stones-1278952/)
-- Woman Meditating in Bedroom - Photo Contributor: [Andrea Piacquadio](https://www.pexels.com/photo/woman-meditating-in-bedroom-3772612/)
-- Buddha Statue - Photo Contributor: [David Bartus](https://www.pexels.com/photo/buddha-statue-2873473/)
-- Tibetan Singing Bowls - Photo Contributor: [Magicbowls] (<https://www.pexels.com/photo/tibetan-singing-bowls-3543912/>)
-
-Youtube Videos:
-
-- [Metta Bahavana Meditation Video](https://www.youtube.com/watch?v=grJ2wh7nk-E)
-- [Mindfulness of Breathing Meditation Video](https://www.youtube.com/watch?v=32elVeLKFAI)
+All faveicons were sourced from : [Flaticon](https://www.flaticon.com/free-icons/yoga/)
