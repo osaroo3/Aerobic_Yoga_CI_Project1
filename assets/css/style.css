@@ -118,6 +118,7 @@ main {
     min-height: 120px;
     width: 80%;
     padding-left: 10px;
+
 }
 
 #main-text {
@@ -263,6 +264,13 @@ main {
         margin-bottom: 5px;
 
     }
+
+    /*cover text styling to center it*/
+    #cover-text h3 {
+        text-align: center;
+        margin: 2px;
+        padding: 5px;
+    }
 }
 
 /*Media query for landscape screens (653px and more)*/
@@ -359,8 +367,7 @@ main {
         right: 10px;
         font-size: 55px;
         min-height: 60px;
-        padding-left: 30px;
-        padding-top: 15px;
+
     }
 
     #why-with-us-text {
@@ -393,8 +400,7 @@ main {
         right: 10px;
         font-size: 68px;
         min-height: 60px;
-        padding-left: 30px;
-        padding-top: 5px;
+
     }
 }
 
@@ -412,7 +418,6 @@ main {
         bottom: 50px;
         right: 20px;
         font-size: 65px;
-        padding-left: 10px;
 
 
     }
@@ -449,9 +454,9 @@ main {
 /*Large devices (1024px and up)*/
 @media screen and (min-width:1024px) {
     #cover-text h3 {
-        font-size: 63px;
+        font-size: 62px;
         width: 80%;
-        padding-top: 25px;
+        right: 35px;
     }
 }
 
@@ -477,8 +482,7 @@ main {
     #cover-text h3 {
         font-size: 63px;
         width: 67%;
-        padding-left: 35px;
-        padding-top: 30px;
+
     }
 
     #horizontal-line {
