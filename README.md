@@ -117,12 +117,12 @@ I have ensured that this project is responsive on all screens.
 
 - HTML: No errors or warnings shown when passed via the official W3C validator:
 
-![W3C HTML Validator Check](assets/readme-images/W3C-HTML-validation-checker.PNG)
+![W3C HTML Validator Check](assets/readme-images/w3c-html-validation-checker.PNG)
 
 
 - CSS: No errors or warnings shown when passed via the official (Jigsaw) validator:
 
-![W3C CSS Validator Check](assets/readme-images/W3C-CSS-validation-checker.PNG)
+![W3C CSS Validator Check](assets/readme-images/w3c-css-validation-checker.PNG)
 
 -Lighthouse audit: Archieved excellent accessiblity, best practices and SEO checks. However, the site performance is at 52%. This issue as stated has to do with my chrome extension.
 
