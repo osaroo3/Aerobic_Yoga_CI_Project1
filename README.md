@@ -124,18 +124,16 @@ I have ensured that this project is responsive on all screens.
 
 ![W3C CSS Validator Check](assets/readme-images/W3C-CSS-validation-checker.PNG)
 
--
+-Lighthouse audit: Archieved excellent accessiblity, best practices and SEO checks. However, the site performance is at 52%. This issue as stated has to do with my chrome extension.
 
-![Lighthouse Accessibility Audit](assets/readme-images/lighthouse-checker.jpg)
+![Lighthouse Accessibility Audit](assets/readme-images/lighthouse.PNG)
 
 
 
 ## Unfixed Bugs
 
-
-
-
-
+- Yet to center the cover text both verically and horizontally.
+- Yet to fix my chrome extension issues affecting the site's performance rating.
 
 ## Libraries and Programs Used
 
@@ -162,9 +160,10 @@ The live link for this site can be found here -[link](https://osaroo3.github.io/
 
 The journey to becoming a Fullstack software developer has been great so far, and, also challenging. I wish to thank my mentor Martina Terlevic for all the support so far, and to Code Institute slack community, I say a big thanks.
 
-    1. The framework of this page follows that of Code Institutes Love Running walkthrough project.
-    2. I acknowledge Tulkerfaulk for the readme file structure.
-    3. The coders coffee project came in handy too.
+1. The framework of this page follows that of Code Institutes Love Running walkthrough project.
+2. I acknowledge Tulkerfaulk for the readme file structure.
+3. The coders coffee project came in handy too.
+4. dh dance school location was used in this website for educative purposes.
 
 ## Content
 

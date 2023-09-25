@@ -365,7 +365,7 @@ main {
     #cover-text h3 {
         bottom: 30px;
         right: 10px;
-        font-size: 55px;
+        font-size: 52px;
         min-height: 60px;
 
     }
@@ -398,8 +398,9 @@ main {
     #cover-text h3 {
         bottom: 30px;
         right: 10px;
-        font-size: 68px;
+        font-size: 50px;
         min-height: 60px;
+        padding-top: 40px;
 
     }
 }
