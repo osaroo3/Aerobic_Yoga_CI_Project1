@@ -62,7 +62,7 @@ A main photo is used in the index page as the hero image. This is done to draw t
 
 This page engages with our site users, by providing information about what we do, its benefits, why they should sign up, our location and, also our social handles.
 
-![Home page image?](assets/readme-images/Home-page.PNG)
+![Home page image?](assets/readme-images/home-page.PNG)
 
 #### Benefits?
 
