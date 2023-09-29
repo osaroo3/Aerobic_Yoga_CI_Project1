@@ -20,9 +20,9 @@ The idea behind this project, is to introduce aerobics to yoga exercise, to make
       - [Benefits?](#benefits)
       - [Why with us?](#why-with-us)
       - [Our location?](#our-location)
-      - [Gallery page](#gallery-page)
-      - [Sign up page](#sign-up-page)
-    - [Footer](#footer)
+    - [Gallery page](#gallery-page)
+    - [Sign up page](#sign-up-page)
+      - [Footer](#footer)
   - [Future Features](#future-features)
 - [Testing](#testing)
   - [Validator Testing](#validator-testing)
@@ -82,19 +82,19 @@ This section details where we meet as a group.
 
 ![When we meet?](assets/readme-images/our-location.PNG)
 
-#### Gallery page
+### Gallery page
 
 This page shows some images from our activities as our way of encouraging more people to exercise with us.
 
 ![Gallery page](assets/readme-images/gallery-page.PNG)
 
-#### Sign up page
+### Sign up page
 
 The sign up page is where we take information about those joining our group. This is to enable us to enrol them, and, also keep in touch with them.
 
 ![Sign up page](assets/readme-images/sign-up-page.PNG)
 
-### Footer
+#### Footer
 
 The footer section directs our site users to our social handles to keep up with updates regarding our activities.
 
